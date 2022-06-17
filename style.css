@@ -27,13 +27,16 @@ body {
     border-radius: 20px;
     border: none;
     box-shadow: 2px 2px 2px #b9b7b7;
+    cursor: pointer;
   }
   .btn-1{
     background-color: white;
     color:hsl(192, 100%, 9%);
   }
 
-  
+  .btn-2:hover{
+    background-color:hsl(322, 78%, 75%) ;
+  }  
   header{
     position: absolute;
     left: 0;
@@ -122,6 +125,10 @@ body {
     background-color: hsl(322, 100%, 66%);
     color: white;
     margin: 20px 0;
+  }
+  
+  .btn-3:hover{
+    background-color:hsl(322, 78%, 75%) ;
   }
   footer{
     padding:120px 0;
@@ -216,6 +223,9 @@ body {
   .basis{
     flex-basis: 25%;
     padding: 10px 0;
+  }
+  .build{
+    width: 50%;
   }
   @keyframes introLoad {
     from {
