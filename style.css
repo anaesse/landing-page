@@ -152,7 +152,6 @@ body {
   .icon-flex{
     display: flex;
     justify-content: center;
-    /* align-items: center; */
     margin-bottom: 20px;
   }
   small{
@@ -225,6 +224,7 @@ body {
     .footer{
       display: flex;
       gap: 20px;
+      font-size: 14px;
     }
      .icon-flex{
     justify-content: flex-start;
