@@ -62,8 +62,6 @@ body {
     justify-content: space-between;
     align-items: center; 
     
-    
-    
   }
   .logo{
       width: 20%
@@ -80,8 +78,8 @@ body {
   }
   .hero-img{
       width: 100%;
-  }
-  .hero-image{
+    }
+    .hero-image{
     padding: 40px 0;
   }
   .hero-desc{
