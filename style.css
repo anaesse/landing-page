@@ -15,7 +15,7 @@ body {
     width: 100%;
     max-width: 1200px;
     margin: auto;
-    padding: 0 60px;
+    padding: 0 50px;
   }
   h1{
     font-family: 'Poppins', sans-serif;
@@ -30,7 +30,7 @@ body {
     padding: 10px 0;
   }
   button{
-    padding: 15px 20px ;
+    padding: 12px 20px ;
     border-radius: 20px;
     border: none;
     box-shadow: 2px 2px 2px #b9b7b7;
@@ -39,6 +39,12 @@ body {
   .btn-1{
     background-color: white;
     color:hsl(192, 100%, 9%);
+    transition: 0.8s;
+  }
+  .btn-1:hover{
+    background-color: hsl(192, 100%, 9%);
+    color: rgb(253, 196, 238);
+    padding: 10px;
   }
 
   .btn-2:hover{
@@ -99,7 +105,7 @@ body {
     position: relative;
   }
   .feature{
-    padding: 25px;
+    padding: 20px;
     margin: 50px 0;
     background-color: white;
     border: 1px solid white;
@@ -109,10 +115,11 @@ body {
   .more-info img {
     width: 100%;
     max-width: 400px;
-    padding: 40px 0;
+    padding: 40px auto;
   }
   .content{
     text-align: center;
+    font-size: 14px;
   }
   .build{
     width: 90%;
@@ -142,7 +149,17 @@ body {
     background-color: hsl(192, 100%, 9%);
     color: hsl(208, 11%, 55%);
     z-index: -1;
+    font-size: 14px;
     
+  }
+  .flex-foot{
+    display: flex;
+    align-items: flex-start;
+    padding: 14px 0;
+    gap: 10px;
+  }
+  .icon-basis{
+    padding-top: 14px;
   }
   .color{
     color: hsl(208, 11%, 55%);
@@ -169,6 +186,7 @@ body {
     border: 2px solid white;
     border-radius: 50%;
   }
+  
   @media (min-width: 920px) {
     .hero-desc{
       flex-basis: 40%;
@@ -233,34 +251,18 @@ body {
   small{
     justify-self: flex-start;
   }
-  }
-  .flex-foot{
-    display: flex;
-    align-items: flex-start;
-    padding: 10px 0;
-    gap: 10px;
+  .build{
+    width: 50%;
   }
   .footer-content{
     flex-basis: 30%;
     padding: 10px 0;
-  
   }
   .basis{
     flex-basis: 25%;
     padding: 10px 0;
   }
-  .build{
-    width: 50%;
-  }
-  @keyframes introLoad {
-    from {
-      -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
-              clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
-    }
-    to {
-      -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-              clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-    }
+
   }
   
   @keyframes moveDown {
